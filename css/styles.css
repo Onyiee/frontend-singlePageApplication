@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p{
+    color: gray;
+}
+.nav-bar-header{
+    font-family: 'Cabin', sans-serif;
+}
+.nav-bar{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-bottom: 2rem;
+}
+.nav-links{
+    font-family: 'B612 Mono', monospace;
+    font-family: 'Cabin', sans-serif;
+}
+
+.mini-nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.logos{
+    display: flex;
+    flex-direction: row;
+}
+.logos a {
+    color: black;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 25px;
+}
+.search{
+    padding: 1rem 1.5rem;
+    border-radius: 2rem;
+    border-style: none;
+    box-shadow: 0 6px 10px -10px;
+    
+    
+}
+.container{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.black-btn{
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    padding: 1rem 1.5rem;
+    margin-left: 2rem;
+    border-radius: 3rem;
+}
+.nav-links ul a {
+    text-decoration: none;
+    color: black;
+    margin: .75rem .75rem;
+
+}
+.first-photo-div{
+    display: flex;
+    margin-top: 5rem;
+}
+.editors-pick{
+    background-color: rgb(243, 243, 243);
+    padding-left: 2rem;
+    padding-right: 3rem;
+    padding-top: 2rem;
+}
+.editors-pick-footer{
+    margin-top: 1rem;
+}
+.second-section{
+    padding-top: 6rem;
+}
+.second-section-headers{
+    display: flex;
+    flex-direction: row;
+     justify-content: space-between;
+}
+
+.second-section-headers a{
+    color: black;
+    font-size: 1.5rem;
+}
+.divs-in-boxes{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
