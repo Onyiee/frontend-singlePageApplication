@@ -79,20 +79,68 @@ p{
 }
 .second-section{
     padding-top: 6rem;
-}
-.second-section-headers{
     display: flex;
     flex-direction: row;
-     justify-content: space-between;
 }
 
-.second-section-headers a{
-    color: black;
-    font-size: 1.5rem;
-}
 .divs-in-boxes{
     display: flex;
     flex-wrap: wrap;
+}
+.second-section-header1{
+    text-decoration: underline;
+     padding-bottom: 3rem; 
+    
+}
+.second-section-left-part{
+    display: flex;
+    flex-direction: column;
+    padding-right: 10rem;
+}
+.second-section-body{
+    display: flex;
+}
+.second-section-middle{
+    display: flex;
+    flex-direction: column;
+    padding-left: 2rem;
+}
+.second-section-right-part{
+    display: flex;
+    flex-direction: column;
+    /* padding-left: 4rem; */
+    /* padding-right: 2rem; */
+}
+.second-anchor-tag{
+    text-decoration: underline;
+    padding-bottom: 3rem;
+}
+.number1-container, .number2-container, .number3-container,.number4-container{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 2rem;
+}
+.number{
+    color: gray;
+    font-size: 30px;
+    padding-right: 2rem;
+}
+.middle1, .middle2, .middle3{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 2.5rem;
+}
+.ss-left-firstPart{
+    padding-right: 1.5rem;
+}
+.ss-left-firstPart-image{
+    padding-bottom: 1.5rem;
+}
+.ss-left-firstPart-body h3{
+    padding-bottom: 0.75rem;
+}
+.middle1-image, .middle2-image, .middle3-image{
+    padding-right: 1.5rem;
 }
 
 
